@@ -1,0 +1,46 @@
+$color1: #FFAC81;
+$color2: #FF928B;
+$color3: #FEC3A6;
+$color4: #EFE9AE;
+
+$serif-fonts: 'Lilita One', cursive;
+$font-base-size: 20px;
+
+body, input, textarea{
+  font-family: $serif-fonts;
+  font-size: $font-base-size;
+}
+
+h1 {
+  font-size: $font-base-size * 2.25;
+  color: $color1;
+}
+
+h2 {
+  font-size: $font-base-size * 2;
+  color: $color2;
+}
+
+h3 {
+  font-size: $font-base-size * 1.75;
+  color: $color3;
+}
+
+h4 {
+  font-size: $font-base-size * 1.5;
+  color: $color4;
+}
+
+h5 {
+  font-size: $font-base-size;
+  color: darken($color1, 50%);
+}
+
+h6 {
+  font-size: $font-base-size * 0.75;
+  color: lighten($color1, 10%);
+}
+
+img, input, textarea {
+  border-radius: 10px;
+}
